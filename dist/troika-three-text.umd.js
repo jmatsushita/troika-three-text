@@ -4744,7 +4744,6 @@
       // );]
       box.min = new three.Vector3(totalBounds[0], totalBounds[1], -10);
       box.max = new three.Vector3(totalBounds[2], totalBounds[3], 10);
-      console.log("GlyphGemotry.this.boundingBox", this.boundingBox);
     };
 
     /**
