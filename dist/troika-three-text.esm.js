@@ -4713,7 +4713,6 @@ class GlyphsGeometry extends InstancedBufferGeometry {
     // );]
     box.min = new Vector3(totalBounds[0], totalBounds[1], -10);
     box.max = new Vector3(totalBounds[2], totalBounds[3], 10);
-    console.log("GlyphGemotry.this.boundingBox", this.boundingBox);
   }
 
   /**
